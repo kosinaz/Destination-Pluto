@@ -1,0 +1,126 @@
+{
+  "TITLE": {
+    "IMAGE": "images/screens/title.png",
+    "MUSIC": "music/Urban-Future.mp3",
+    "ELEMENTS": {
+      "START": {
+        "TYPE": "Button",
+        "X": 0,
+        "Y": 0,
+        "WIDTH": 1024,
+        "HEIGHT": 768
+      },
+      "CODE": {
+        "TYPE": "Label",
+        "X": 24,
+        "Y": 24,
+        "WIDTH": 200,
+        "HEIGHT": 25,
+        "ALIGN": "left",
+        "FONTSIZE": "25px",
+        "value": "Code & Graphics by Zoltán Kosina"
+      },
+      "KOSINA": {
+        "TYPE": "Label",
+        "X": 24,
+        "Y": 49,
+        "WIDTH": 200,
+        "HEIGHT": 25,
+        "ALIGN": "left",
+        "FONTSIZE": "25px",
+        "value": "www.kosina.hu"
+      },
+      "MUSIC": {
+        "TYPE": "Label",
+        "X": 800,
+        "Y": 24,
+        "WIDTH": 200,
+        "HEIGHT": 25,
+        "ALIGN": "right",
+        "FONTSIZE": "25px",
+        "value": "Music by Eric Matyas"
+      },
+      "SOUNDIMAGE": {
+        "TYPE": "Label",
+        "X": 800,
+        "Y": 49,
+        "WIDTH": 200,
+        "HEIGHT": 25,
+        "ALIGN": "right",
+        "FONTSIZE": "25px",
+        "value": "www.soundimage.org"
+      },
+      "MADE": {
+        "TYPE": "Label",
+        "X": 512,
+        "Y": 667,
+        "WIDTH": 200,
+        "HEIGHT": 33,
+        "ALIGN": "center",
+        "FONTSIZE": "33px",
+        "value": "Made for the"
+      },
+      "IVG": {
+        "TYPE": "Label",
+        "X": 512,
+        "Y": 700,
+        "WIDTH": 200,
+        "HEIGHT": 33,
+        "ALIGN": "center",
+        "COLOR": "#ccf",
+        "FONTSIZE": "33px",
+        "value": "INDIES vs GAMERS"
+      },
+      "GJ": {
+        "TYPE": "Label",
+        "X": 512,
+        "Y": 733,
+        "WIDTH": 200,
+        "HEIGHT": 33,
+        "ALIGN": "center",
+        "FONTSIZE": "33px",
+        "value": "Game Jam"
+      }
+    }
+  },
+  "INGAME": {
+    "BGCOLOR": "#000",
+    "MUSIC": "music/Runaway-Technology.mp3",
+    "ELEMENTS": {
+      "SCIENCE": {
+        "TYPE": "Label",
+        "X": 24,
+        "Y": 24,
+        "WIDTH": 200,
+        "HEIGHT": 50,
+        "value": "Science"
+      },
+      "SCIENCE_COUNTER": {
+        "TYPE": "Label",
+        "X": 24,
+        "Y": 74,
+        "WIDTH": 200,
+        "HEIGHT": 50,
+        "value": "0"
+      },
+      "DISTANCE": {
+        "TYPE": "Label",
+        "X": 800,
+        "Y": 24,
+        "WIDTH": 200,
+        "HEIGHT": 50,
+        "ALIGN": "right",
+        "value": "Distance"
+      },
+      "DISTANCE_COUNTER": {
+        "TYPE": "Label",
+        "X": 800,
+        "Y": 74,
+        "WIDTH": 200,
+        "HEIGHT": 50,
+        "ALIGN": "right",
+        "value": 3000000000
+      }
+    }
+  }
+}

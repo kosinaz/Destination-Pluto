@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Destination: Pluto</title>
+  <script src="source/DP.js"></script>
+  <script src="source/utils.js"></script>
+  <script src="source/Screen.js"></script>
+  <script src="source/UIElement.js"></script>
+  <script src="source/Label.js"></script>
+  <script src="source/Button.js"></script>
+
+  <style>
+    @font-face {
+      font-family: "Spaceship";
+      src: url("fonts/Spaceship.ttf") format("truetype");
+    }
+
+    body {
+      margin: 0;
+      background: #000;
+    }
+
+    div {
+      margin: 0 auto;
+      width: 1024px;
+      height: 768px;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <canvas width="1024" height="768" id="DP"></canvas>
+  </div>
+  <audio autoplay loop id="music">
+    Your browser does not support the audio element.
+  </audio>
+  <script>DP.init()</script>
+</body>
+
+</html>
