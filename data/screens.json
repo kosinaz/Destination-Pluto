@@ -1,71 +1,72 @@
 {
   "TITLE": {
-    "IMAGE": "images/screens/title.png",
+    "BGCOLOR": "#000",
+    "IMAGE": "images/resources/Title.svg",
     "MUSIC": "music/Urban-Future.mp3",
     "ELEMENTS": {
       "START": {
         "TYPE": "Button",
-        "X": 0,
-        "Y": 0,
-        "WIDTH": 1024,
-        "HEIGHT": 768
+        "x": 0,
+        "y": 0,
+        "width": 1024,
+        "height": 768
       },
       "CODE": {
         "TYPE": "Label",
-        "X": 24,
-        "Y": 24,
-        "WIDTH": 200,
-        "HEIGHT": 25,
+        "x": 24,
+        "y": 24,
+        "width": 200,
+        "height": 25,
         "ALIGN": "left",
         "FONTSIZE": "25px",
         "value": "Code & Graphics by Zoltán Kosina"
       },
       "KOSINA": {
         "TYPE": "Label",
-        "X": 24,
-        "Y": 49,
-        "WIDTH": 200,
-        "HEIGHT": 25,
+        "x": 24,
+        "y": 49,
+        "width": 200,
+        "height": 25,
         "ALIGN": "left",
         "FONTSIZE": "25px",
         "value": "www.kosina.hu"
       },
       "MUSIC": {
         "TYPE": "Label",
-        "X": 800,
-        "Y": 24,
-        "WIDTH": 200,
-        "HEIGHT": 25,
+        "x": 800,
+        "y": 24,
+        "width": 200,
+        "height": 25,
         "ALIGN": "right",
         "FONTSIZE": "25px",
         "value": "Music by Eric Matyas"
       },
       "SOUNDIMAGE": {
         "TYPE": "Label",
-        "X": 800,
-        "Y": 49,
-        "WIDTH": 200,
-        "HEIGHT": 25,
+        "x": 800,
+        "y": 49,
+        "width": 200,
+        "height": 25,
         "ALIGN": "right",
         "FONTSIZE": "25px",
         "value": "www.soundimage.org"
       },
       "MADE": {
         "TYPE": "Label",
-        "X": 512,
-        "Y": 667,
-        "WIDTH": 200,
-        "HEIGHT": 33,
+        "x": 512,
+        "y": 667,
+        "width": 200,
+        "height": 33,
         "ALIGN": "center",
         "FONTSIZE": "33px",
         "value": "Made for the"
       },
       "IVG": {
         "TYPE": "Label",
-        "X": 512,
-        "Y": 700,
-        "WIDTH": 200,
-        "HEIGHT": 33,
+        "x": 512,
+        "y": 700,
+        "width": 200,
+        "height": 33,
         "ALIGN": "center",
         "COLOR": "#ccf",
         "FONTSIZE": "33px",
@@ -73,10 +74,10 @@
       },
       "GJ": {
         "TYPE": "Label",
-        "X": 512,
-        "Y": 733,
-        "WIDTH": 200,
-        "HEIGHT": 33,
+        "x": 512,
+        "y": 733,
+        "width": 200,
+        "height": 33,
         "ALIGN": "center",
         "FONTSIZE": "33px",
         "value": "Game Jam"
@@ -87,39 +88,54 @@
     "BGCOLOR": "#000",
     "MUSIC": "music/Runaway-Technology.mp3",
     "ELEMENTS": {
-      "SCIENCE": {
-        "TYPE": "Label",
-        "X": 24,
-        "Y": 24,
-        "WIDTH": 200,
-        "HEIGHT": 50,
-        "value": "Science"
+      "STARFIELD" : {
+        "TYPE": "Starfield",
+        "density": 100
       },
-      "SCIENCE_COUNTER": {
-        "TYPE": "Label",
-        "X": 24,
-        "Y": 74,
-        "WIDTH": 200,
-        "HEIGHT": 50,
-        "value": "0"
+      "NEW_HORIZONS": {
+        "TYPE": "NewHorizons",
+        "x": 0,
+        "y": 384,
+        "IMAGE": "images/resources/NewHorizons.svg",
+        "width": 100,
+        "height": 100,
+        "speed": 5
       },
       "DISTANCE": {
         "TYPE": "Label",
-        "X": 800,
-        "Y": 24,
-        "WIDTH": 200,
-        "HEIGHT": 50,
-        "ALIGN": "right",
+        "x": 24,
+        "y": 24,
+        "width": 200,
+        "height": 50,
+        "ALIGN": "left",
         "value": "Distance"
       },
       "DISTANCE_COUNTER": {
         "TYPE": "Label",
-        "X": 800,
-        "Y": 74,
-        "WIDTH": 200,
-        "HEIGHT": 50,
+        "x": 24,
+        "y": 74,
+        "width": 200,
+        "height": 50,
+        "ALIGN": "left",
+        "value": 3000
+      },
+      "SCIENCE": {
+        "TYPE": "Label",
+        "x": 800,
+        "y": 24,
+        "width": 200,
+        "height": 50,
         "ALIGN": "right",
-        "value": 3000000000
+        "value": "Science"
+      },
+      "SCIENCE_COUNTER": {
+        "TYPE": "Label",
+        "x": 800,
+        "y": 74,
+        "width": 200,
+        "height": 50,
+        "ALIGN": "right",
+        "value": "0"
       }
     }
   }

@@ -13,6 +13,9 @@ DP.init = function () {
 
 DP.update = function () {
   'use strict';
+  if (DP.screen) {
+    DP.screen.update();
+  }
 };
 
 DP.draw = function () {

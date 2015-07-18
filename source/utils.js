@@ -21,9 +21,14 @@ DP.loadScreens = function (screens) {
     }
   }
   DP.changeScreen(DP.TITLE);
-  DP.TITLE.ELEMENTS.START.onclick = function () {
+  DP.screen.ELEMENTS.START.onclick = function () {
     window.removeEventListener("click", this);
     DP.changeScreen(DP.INGAME);
+    DP.screen.ELEMENTS.DISTANCE_COUNTER.distance = 3000;
+    DP.screen.ELEMENTS.DISTANCE_COUNTER.update = function () {
+      this.distance -= 0.1;
+      this.value = Math.round(this.distance) + ' million miles';
+    };
   };
 };
 

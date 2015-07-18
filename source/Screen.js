@@ -35,3 +35,13 @@ DP.Screen.prototype.draw = function () {
     }
   }
 };
+
+DP.Screen.prototype.update = function () {
+  'use strict';
+  var i;
+  for (i in this.ELEMENTS) {
+    if (this.ELEMENTS.hasOwnProperty(i)) {
+      this.ELEMENTS[i].update();
+    }
+  }
+};

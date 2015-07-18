@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="28.222223mm"
+   height="28.222223mm"
+   viewBox="0 0 100 100"
+   id="svg15208"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="Star.svg">
+  <defs
+     id="defs15210" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="42.21592"
+     inkscape:cy="57.299982"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata15213">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="1. réteg"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(4.7290159e-7,-952.36218)">
+    <use
+       id="use14017"
+       xlink:href="#path13893"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(59.22052,-673.8381)" />
+    <use
+       id="use14017-1"
+       xlink:href="#path13893"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(59.22052,-673.8381)" />
+    <use
+       id="use14017-2"
+       xlink:href="#path13893"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(59.22052,-673.8381)" />
+    <use
+       id="use14071"
+       xlink:href="#path13897"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-105.93971,-713.80347)" />
+    <use
+       id="use14073"
+       xlink:href="#path13893"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-125.63543,-654.40881)" />
+    <use
+       id="use14071-4"
+       xlink:href="#path13897"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-105.93971,-713.80347)" />
+    <use
+       id="use14073-6"
+       xlink:href="#path13893"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-125.63543,-654.40881)" />
+    <use
+       id="use14071-45"
+       xlink:href="#path13897"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-105.93971,-713.80347)" />
+    <use
+       id="use14073-4"
+       xlink:href="#path13893"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-125.63543,-654.40881)" />
+    <use
+       id="use14071-46"
+       xlink:href="#path13897"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-105.93971,-713.80347)" />
+    <use
+       id="use14073-48"
+       xlink:href="#path13893"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-125.63543,-654.40881)" />
+    <use
+       id="use14071-1"
+       xlink:href="#path13897"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-105.93971,-713.80347)" />
+    <use
+       id="use14073-40"
+       xlink:href="#path13893"
+       x="0"
+       y="0"
+       width="100%"
+       height="100%"
+       transform="translate(-125.63543,-654.40881)" />
+    <path
+       sodipodi:type="star"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:3.15899992;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path15855"
+       sodipodi:sides="8"
+       sodipodi:cx="50"
+       sodipodi:cy="1002.3622"
+       sodipodi:r1="50.255997"
+       sodipodi:r2="25.127998"
+       sodipodi:arg1="0.88637514"
+       sodipodi:arg2="1.2790742"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 81.773081,1041.2998 -24.546218,-14.8713 -12.292942,25.9337 -6.84123,-27.8724 -27.030289,9.6455 L 25.933659,1009.589 -4.7290159e-7,997.2961 27.872363,990.45487 18.226919,963.42458 42.773137,978.29584 55.066079,952.36218 61.907309,980.23455 88.937598,970.5891 74.066341,995.13532 100,1007.4283 l -27.872363,6.8412 z" />
+  </g>
+</svg>

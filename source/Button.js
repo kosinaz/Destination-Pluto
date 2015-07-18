@@ -16,12 +16,12 @@ DP.Button.prototype.draw = function () {
   DP.CTX.textBaseline = 'middle';
   DP.CTX.fillText(
     this.value,
-    this.X + (
-      this.ALIGN === 'right' ? this.WIDTH : (
-        this.ALIGN === 'center' ? this.WIDTH / 2 : 0
+    this.x + (
+      this.ALIGN === 'right' ? this.width : (
+        this.ALIGN === 'center' ? this.width / 2 : 0
       )
     ),
-    this.Y + this.HEIGHT / 2
+    this.y + this.height / 2
   );
 };
 
@@ -30,8 +30,8 @@ DP.Button.prototype.handleEvent = function (e) {
   var x, y;
   x = e.offsetX === undefined ? e.clientX - this.canvas.offsetLeft : e.offsetX;
   y = e.offsetX === undefined ? e.clientY - this.canvas.offsetTop : e.offsetY;
-  if (x > this.X && x < this.X + this.WIDTH &&
-      y > this.Y && y < this.Y + this.HEIGHT) {
+  if (x > this.x && x < this.x + this.width &&
+      y > this.y && y < this.y + this.height) {
     this.onclick();
   }
 };
