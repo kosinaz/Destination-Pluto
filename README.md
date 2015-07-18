@@ -1,4 +1,4 @@
-# Destination Pluto
+# Destination: Pluto v0.1.0
 
 An arcade space paparazzi simulator made for the INDIES vs GAMERS Game Jam.
 
