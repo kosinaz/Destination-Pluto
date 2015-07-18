@@ -50,6 +50,9 @@ DP.Button.prototype.update = function () {
 DP.Button.prototype.handleEvent = function (e) {
   'use strict';
   var x, y;
+  if (e.type !== 'click') {
+    return;
+  }
   x = e.offsetX === undefined ? e.clientX - this.canvas.offsetLeft : e.offsetX;
   y = e.offsetX === undefined ? e.clientY - this.canvas.offsetTop : e.offsetY;
   if (x > this.x - this.width / 2 && x < this.x + this.width / 2 &&

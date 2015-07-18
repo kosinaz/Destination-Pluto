@@ -31,6 +31,37 @@ DP.changeScreen = function (screen) {
   document.getElementById('music').play();
 };
 
+DP.gameOver = function () {
+  'use strict';
+  DP.screen.ELEMENTS.LOST = new DP.Label({
+    "x": 512,
+    "y": 334,
+    "width": 700,
+    "height": 50,
+    "ALIGN": "center",
+    "value": "Connection lost..."
+  });
+  DP.screen.ELEMENTS.FINAL = new DP.Label({
+    "x": 512,
+    "y": 384,
+    "width": 700,
+    "height": 50,
+    "ALIGN": "center",
+    "value": "Final scientific value of the mission:"
+  });
+  DP.screen.ELEMENTS.VALUE = new DP.Label({
+    "x": 512,
+    "y": 434,
+    "width": 700,
+    "height": 50,
+    "ALIGN": "center",
+    "value": DP.screen.ELEMENTS.SCIENCE_COUNTER.value
+  });
+  DP.screen.draw();
+  DP.changeScreen(DP.GAMEOVER);
+  DP.screen.ELEMENTS.NEW_MISSION.onclick = DP.newMission;
+};
+
 DP.newMission = function () {
   'use strict';
   DP.changeScreen(DP.INGAME);
@@ -40,5 +71,9 @@ DP.newMission = function () {
   DP.screen.ELEMENTS.DISTANCE_COUNTER.update = function () {
     this.distance -= 0.1;
     this.value = Math.round(this.distance) + ' million miles';
+  };
+  DP.screen.ELEMENTS.SCIENCE_COUNTER.science = 0;
+  DP.screen.ELEMENTS.SCIENCE_COUNTER.update = function () {
+    this.value = this.science || '0';
   };
 };

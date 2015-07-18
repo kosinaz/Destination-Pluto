@@ -4,10 +4,28 @@ DP.Asteroid = function (args) {
   'use strict';
   DP.Actor.call(this, args);
   this.distanceToNH = 0;
+  this.point = new DP.Point({
+    x: this.x,
+    y: this.y,
+    width: 50,
+    height: 50,
+    ALIGN: 'center'
+  });
 };
 DP.Asteroid.prototype = Object.create(DP.Actor.prototype);
 DP.Asteroid.constructor = DP.Asteroid;
 
+DP.Asteroid.prototype.draw = function () {
+  'use strict';
+  DP.CTX.drawImage(
+    this.IMAGE,
+    this.x - this.width / 2,
+    this.y - this.height / 2,
+    this.width,
+    this.height
+  );
+  this.point.draw();
+};
 DP.Asteroid.prototype.update = function () {
   'use strict';
   var distance = Math.sqrt(
@@ -27,34 +45,16 @@ DP.Asteroid.prototype.update = function () {
     Math.pow(DP.NH.x - this.x, 2) + Math.pow(DP.NH.y - this.y, 2)
   );
   if (this.distanceToNH < this.width / 2) {
-    DP.screen.ELEMENTS.LOST = new DP.Label({
-      "x": 512,
-      "y": 334,
-      "width": 700,
-      "height": 50,
-      "ALIGN": "center",
-      "value": "Connection lost..."
-    });
-    DP.screen.ELEMENTS.FINAL = new DP.Label({
-      "x": 512,
-      "y": 384,
-      "width": 700,
-      "height": 50,
-      "ALIGN": "center",
-      "value": "Final scientific value of the mission:"
-    });
-    DP.screen.ELEMENTS.VALUE = new DP.Label({
-      "x": 512,
-      "y": 434,
-      "width": 700,
-      "height": 50,
-      "ALIGN": "center",
-      "value": DP.screen.ELEMENTS.SCIENCE_COUNTER.value
-    });
-    DP.screen.draw();
-    DP.changeScreen(DP.GAMEOVER);
-    DP.screen.ELEMENTS.NEW_MISSION.onclick = DP.newMission;
+    DP.gameOver();
+  } else if (DP.INGAME.ELEMENTS.FLASH.alpha === 0.9) {
+    this.point.value = Math.round(this.width / this.distanceToNH * 3);
+    this.point.alpha = 1;
+    DP.INGAME.ELEMENTS.SCIENCE_COUNTER.science += this.point.value;
+  } else if (this.point.alpha < 0.1) {
+    this.point.x = this.x;
+    this.point.y = this.y - this.height / 2;
   }
+  this.point.update();
 };
 
 DP.Asteroid.prototype.reset = function () {
