@@ -48,8 +48,10 @@ DP.Asteroid.prototype.update = function () {
     DP.gameOver();
   } else if (DP.INGAME.ELEMENTS.FLASH.alpha === 0.9) {
     this.point.value = Math.round(this.width / this.distanceToNH * 3);
-    this.point.alpha = 1;
-    DP.INGAME.ELEMENTS.SCIENCE_COUNTER.science += this.point.value;
+    if (this.point.value !== 0) {
+      this.point.alpha = 1;
+      DP.INGAME.ELEMENTS.SCIENCE_COUNTER.science += this.point.value;
+    }
   } else if (this.point.alpha < 0.1) {
     this.point.x = this.x;
     this.point.y = this.y - this.height / 2;
@@ -62,9 +64,10 @@ DP.Asteroid.prototype.reset = function () {
   var size;
   this.x = Math.random() * 1024 + 1000;
   this.y = Math.random() * 768;
-  size = Math.random() * 50 + 50;
+  size = Math.random() * 100 + 50;
   this.width = size;
   this.height = size;
   this.targetX = -1000;
   this.targetY = this.y;
+  this.speed = Math.random() * 4 + 2;
 };

@@ -1,3 +1,4 @@
+/*global GJAPI*/
 var DP = DP || {};
 
 DP.request = function (path, callback) {
@@ -57,6 +58,9 @@ DP.gameOver = function () {
     "ALIGN": "center",
     "value": DP.screen.ELEMENTS.SCIENCE_COUNTER.value
   });
+  GJAPI.ScoreAdd(0,
+                 DP.screen.ELEMENTS.SCIENCE_COUNTER.value,
+                 DP.screen.ELEMENTS.SCIENCE_COUNTER.value + ' Science');
   DP.screen.draw();
   DP.changeScreen(DP.GAMEOVER);
   DP.screen.ELEMENTS.NEW_MISSION.onclick = DP.newMission;
@@ -71,6 +75,9 @@ DP.newMission = function () {
   DP.screen.ELEMENTS.DISTANCE_COUNTER.update = function () {
     this.distance -= 0.1;
     this.value = Math.round(this.distance) + ' million miles';
+    if (Math.round(this.distance * 10) % 3000 === 0) {
+      DP.INGAME.ELEMENTS.ASTEROID_FIELD.density += 1;
+    }
   };
   DP.screen.ELEMENTS.SCIENCE_COUNTER.science = 0;
   DP.screen.ELEMENTS.SCIENCE_COUNTER.update = function () {

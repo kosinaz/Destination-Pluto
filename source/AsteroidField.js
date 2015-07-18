@@ -13,7 +13,6 @@ DP.AsteroidField.prototype.addAsteroids = function () {
     this.asteroids.push(new DP.Asteroid({
       x: -100,
       targetX: -1000,
-      speed: 3,
       IMAGE: 'images/resources/Asteroid.svg'
     }));
   }
