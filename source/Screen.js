@@ -2,18 +2,25 @@ var DP = DP || {};
 
 DP.Screen = function (args) {
   'use strict';
-  var i, e;
+  this.args = args;
   this.BGCOLOR = args.BGCOLOR;
   if (args.IMAGE) {
     this.IMAGE = document.createElement('img');
     this.IMAGE.src = args.IMAGE;
   }
   this.MUSIC = args.MUSIC;
+  this.init();
+};
+
+DP.Screen.prototype.init = function () {
+  'use strict';
+  var i;
   this.ELEMENTS = {};
-  for (i in args.ELEMENTS) {
-    if (args.ELEMENTS.hasOwnProperty(i)) {
-      if (DP.hasOwnProperty(args.ELEMENTS[i].TYPE)) {
-        this.ELEMENTS[i] = new DP[args.ELEMENTS[i].TYPE](args.ELEMENTS[i]);
+  for (i in this.args.ELEMENTS) {
+    if (this.args.ELEMENTS.hasOwnProperty(i)) {
+      if (DP.hasOwnProperty(this.args.ELEMENTS[i].TYPE)) {
+        this.ELEMENTS[i] =
+          new DP[this.args.ELEMENTS[i].TYPE](this.args.ELEMENTS[i]);
       }
     }
   }

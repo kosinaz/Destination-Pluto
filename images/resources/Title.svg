@@ -33,9 +33,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="290.43845"
-     inkscape:cy="310.9979"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="596.0708"
+     inkscape:cy="519.03855"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -67,9 +67,9 @@
      id="layer1"
      transform="translate(117.5754,-781.06946)">
     <g
-       id="g14375">
+       id="g19167">
       <g
-         id="g14093">
+         id="g19079">
         <rect
            style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.15899992;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            id="rect4957"
@@ -780,11 +780,10 @@
            transform="translate(561.62124,114.91239)" />
       </g>
       <g
-         transform="translate(8.5714289,811.42857)"
-         id="g14181">
+         id="g18689">
         <g
            id="g5057"
-           transform="matrix(0.43765552,0,0,0.48107551,737.11665,252.08278)">
+           transform="matrix(0.43765552,0,0,0.48107551,745.68808,1063.5114)">
           <g
              transform="matrix(0.28700183,0,0,0.28700183,-17.432281,186.02022)"
              id="g5059">
@@ -957,7 +956,7 @@
              style="opacity:1;fill:#e3dedb;stroke:none;stroke-width:3.15899992;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
         </g>
         <g
-           transform="matrix(0.34703419,0,0,0.38146359,667.83893,355.30391)"
+           transform="matrix(0.34703419,0,0,0.38146359,676.41036,1166.7325)"
            id="g5113">
           <g
              id="g5115"
@@ -1132,7 +1131,7 @@
         </g>
         <g
            id="g5169"
-           transform="matrix(0.5502892,0,0,0.60488362,758.89404,303.97474)">
+           transform="matrix(0.5502892,0,0,0.60488362,767.46547,1115.4033)">
           <g
              transform="matrix(0.28700183,0,0,0.28700183,-17.432281,186.02022)"
              id="g5171">
@@ -1306,7 +1305,7 @@
         </g>
         <g
            id="g5225"
-           transform="matrix(0.43851548,0,0,0.43851548,180.32941,124.78911)">
+           transform="matrix(0.43851548,0,0,0.43851548,188.90084,936.21768)">
           <g
              transform="matrix(0.28700183,0,0,0.28700183,-17.432281,186.02022)"
              id="g5227">
@@ -1479,7 +1478,7 @@
              style="opacity:1;fill:#e3dedb;stroke:none;stroke-width:3.15899992;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
         </g>
         <g
-           transform="matrix(0.35948937,0,0,0.35948937,165.66145,79.040467)"
+           transform="matrix(0.35948937,0,0,0.35948937,174.23288,890.46904)"
            id="g5281">
           <g
              id="g5283"
@@ -1654,7 +1653,7 @@
         </g>
         <g
            id="g4959"
-           transform="matrix(2.0470297,0,0,2.0470297,-88.267265,-311.58587)">
+           transform="matrix(2.0470297,0,0,2.0470297,-79.695836,499.8427)">
           <g
              transform="matrix(0.36601693,0,0,0.36601693,141.87852,8.0600238)"
              id="g4961">
@@ -1747,7 +1746,7 @@
         </g>
         <g
            id="g4764"
-           transform="matrix(0.85578426,-0.39353111,0.39353111,0.85578426,-511.89202,461.2772)">
+           transform="matrix(-0.85615542,0.39272297,0.39272297,0.85615542,285.39766,910.46585)">
           <g
              transform="matrix(0.84313727,0,0,0.84313727,361.62815,-64.349622)"
              id="g4766">
@@ -1953,7 +1952,7 @@
            id="text4848"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:'Spaceship Bullet';-inkscape-font-specification:'Spaceship Bullet, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffcc00;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            xml:space="preserve"
-           transform="matrix(2.9947886,0,0,2.9890315,-1391.3715,-1050.4467)"><textPath
+           transform="matrix(2.9947886,0,0,2.9890315,-1382.8001,-239.01813)"><textPath
              id="textPath4850"
              xlink:href="#path4840"><tspan
    id="tspan4852">Destination: Pluto</tspan></textPath></text>

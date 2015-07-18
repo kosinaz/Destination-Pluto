@@ -21,15 +21,7 @@ DP.loadScreens = function (screens) {
     }
   }
   DP.changeScreen(DP.TITLE);
-  DP.screen.ELEMENTS.START.onclick = function () {
-    window.removeEventListener("click", this);
-    DP.changeScreen(DP.INGAME);
-    DP.screen.ELEMENTS.DISTANCE_COUNTER.distance = 3000;
-    DP.screen.ELEMENTS.DISTANCE_COUNTER.update = function () {
-      this.distance -= 0.1;
-      this.value = Math.round(this.distance) + ' million miles';
-    };
-  };
+  DP.screen.ELEMENTS.NEW_MISSION.onclick = DP.newMission;
 };
 
 DP.changeScreen = function (screen) {
@@ -37,4 +29,16 @@ DP.changeScreen = function (screen) {
   DP.screen = screen;
   document.getElementById('music').src = DP.screen.MUSIC;
   document.getElementById('music').play();
+};
+
+DP.newMission = function () {
+  'use strict';
+  DP.changeScreen(DP.INGAME);
+  DP.screen.init();
+  DP.NH = DP.screen.ELEMENTS.NEW_HORIZONS;
+  DP.screen.ELEMENTS.DISTANCE_COUNTER.distance = 3000;
+  DP.screen.ELEMENTS.DISTANCE_COUNTER.update = function () {
+    this.distance -= 0.1;
+    this.value = Math.round(this.distance) + ' million miles';
+  };
 };

@@ -4,18 +4,20 @@
     "IMAGE": "images/resources/Title.svg",
     "MUSIC": "music/Urban-Future.mp3",
     "ELEMENTS": {
-      "START": {
+      "NEW_MISSION": {
         "TYPE": "Button",
-        "x": 0,
-        "y": 0,
-        "width": 1024,
-        "height": 768
+        "x": 512,
+        "y": 694,
+        "width": 360,
+        "height": 50,
+        "ALIGN": "center",
+        "value": "Start new mission"
       },
       "CODE": {
         "TYPE": "Label",
         "x": 24,
         "y": 24,
-        "width": 200,
+        "width": 330,
         "height": 25,
         "ALIGN": "left",
         "FONTSIZE": "25px",
@@ -25,7 +27,7 @@
         "TYPE": "Label",
         "x": 24,
         "y": 49,
-        "width": 200,
+        "width": 330,
         "height": 25,
         "ALIGN": "left",
         "FONTSIZE": "25px",
@@ -33,9 +35,9 @@
       },
       "MUSIC": {
         "TYPE": "Label",
-        "x": 800,
+        "x": 1000,
         "y": 24,
-        "width": 200,
+        "width": 210,
         "height": 25,
         "ALIGN": "right",
         "FONTSIZE": "25px",
@@ -43,9 +45,9 @@
       },
       "SOUNDIMAGE": {
         "TYPE": "Label",
-        "x": 800,
+        "x": 1000,
         "y": 49,
-        "width": 200,
+        "width": 210,
         "height": 25,
         "ALIGN": "right",
         "FONTSIZE": "25px",
@@ -54,8 +56,8 @@
       "MADE": {
         "TYPE": "Label",
         "x": 512,
-        "y": 667,
-        "width": 200,
+        "y": 24,
+        "width": 230,
         "height": 33,
         "ALIGN": "center",
         "FONTSIZE": "33px",
@@ -64,8 +66,8 @@
       "IVG": {
         "TYPE": "Label",
         "x": 512,
-        "y": 700,
-        "width": 200,
+        "y": 57,
+        "width": 230,
         "height": 33,
         "ALIGN": "center",
         "COLOR": "#ccf",
@@ -75,8 +77,8 @@
       "GJ": {
         "TYPE": "Label",
         "x": 512,
-        "y": 733,
-        "width": 200,
+        "y": 90,
+        "width": 230,
         "height": 33,
         "ALIGN": "center",
         "FONTSIZE": "33px",
@@ -92,20 +94,24 @@
         "TYPE": "Starfield",
         "density": 100
       },
+      "ASTEROID_FIELD" : {
+        "TYPE": "AsteroidField",
+        "density": 1
+      },
       "NEW_HORIZONS": {
         "TYPE": "NewHorizons",
         "x": 0,
         "y": 384,
         "IMAGE": "images/resources/NewHorizons.svg",
-        "width": 100,
-        "height": 100,
+        "width": 200,
+        "height": 200,
         "speed": 5
       },
       "DISTANCE": {
         "TYPE": "Label",
         "x": 24,
         "y": 24,
-        "width": 200,
+        "width": 340,
         "height": 50,
         "ALIGN": "left",
         "value": "Distance"
@@ -114,28 +120,42 @@
         "TYPE": "Label",
         "x": 24,
         "y": 74,
-        "width": 200,
+        "width": 340,
         "height": 50,
         "ALIGN": "left",
         "value": 3000
       },
       "SCIENCE": {
         "TYPE": "Label",
-        "x": 800,
+        "x": 1000,
         "y": 24,
-        "width": 200,
+        "width": 340,
         "height": 50,
         "ALIGN": "right",
         "value": "Science"
       },
       "SCIENCE_COUNTER": {
         "TYPE": "Label",
-        "x": 800,
+        "x": 1000,
         "y": 74,
-        "width": 200,
+        "width": 340,
         "height": 50,
         "ALIGN": "right",
         "value": "0"
+      }
+    }
+  },
+  "GAMEOVER": {
+    "MUSIC": "music/Cosmic-Switchboard.mp3",
+    "ELEMENTS": {
+      "NEW_MISSION": {
+        "TYPE": "Button",
+        "x": 512,
+        "y": 694,
+        "width": 360,
+        "height": 50,
+        "ALIGN": "center",
+        "value": "Start new mission"
       }
     }
   }

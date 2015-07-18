@@ -3,8 +3,8 @@ var DP = DP || {};
 DP.Actor = function (args) {
   'use strict';
   DP.Element.call(this, args);
-  this.targetX = args.targetX;
-  this.targetY = args.targetY;
+  this.targetX = args.targetX || this.x;
+  this.targetY = args.targetY || this.y;
   this.speed = args.speed;
   if (args.IMAGE) {
     this.IMAGE = document.createElement('img');
