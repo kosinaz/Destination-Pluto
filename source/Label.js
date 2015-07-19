@@ -30,7 +30,7 @@ DP.Label.prototype.draw = function () {
     DP.CTX.globalAlpha = 1;
   }
   DP.CTX.fillStyle = this.COLOR;
-  DP.CTX.font = this.FONTSIZE + ' spaceship';
+  DP.CTX.font = this.FONTSIZE + ' "Russo One"';
   DP.CTX.textAlign = this.ALIGN;
   DP.CTX.textBaseline = 'middle';
   DP.CTX.fillText(this.value, this.textX, this.textY);
