@@ -20,7 +20,7 @@
         "width": 330,
         "height": 25,
         "ALIGN": "left",
-        "FONTSIZE": "25px",
+        "FONTSIZE": "18px",
         "value": "Code & Graphics by Zoltán Kosina"
       },
       "KOSINA": {
@@ -30,7 +30,7 @@
         "width": 330,
         "height": 25,
         "ALIGN": "left",
-        "FONTSIZE": "25px",
+        "FONTSIZE": "18px",
         "value": "www.kosina.hu"
       },
       "MUSIC": {
@@ -40,7 +40,7 @@
         "width": 210,
         "height": 25,
         "ALIGN": "right",
-        "FONTSIZE": "25px",
+        "FONTSIZE": "18px",
         "value": "Music by Eric Matyas"
       },
       "SOUNDIMAGE": {
@@ -50,7 +50,7 @@
         "width": 210,
         "height": 25,
         "ALIGN": "right",
-        "FONTSIZE": "25px",
+        "FONTSIZE": "18px",
         "value": "www.soundimage.org"
       },
       "MADE": {
@@ -60,7 +60,7 @@
         "width": 230,
         "height": 33,
         "ALIGN": "center",
-        "FONTSIZE": "33px",
+        "FONTSIZE": "24px",
         "value": "Made for the"
       },
       "IVG": {
@@ -71,7 +71,7 @@
         "height": 33,
         "ALIGN": "center",
         "COLOR": "#ccf",
-        "FONTSIZE": "33px",
+        "FONTSIZE": "24px",
         "value": "INDIES vs GAMERS"
       },
       "GJ": {
@@ -81,7 +81,7 @@
         "width": 230,
         "height": 33,
         "ALIGN": "center",
-        "FONTSIZE": "33px",
+        "FONTSIZE": "24px",
         "value": "Game Jam"
       }
     }
