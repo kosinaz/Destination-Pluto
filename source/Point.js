@@ -13,7 +13,7 @@ DP.Point.prototype.draw = function () {
   if (this.alpha > 0) {
     DP.CTX.globalAlpha = this.alpha;
     DP.CTX.fillStyle = this.COLOR;
-    DP.CTX.font = this.FONTSIZE + ' Spaceship';
+    DP.CTX.font = this.FONTSIZE + ' "Russo One"';
     DP.CTX.textAlign = this.ALIGN;
     DP.CTX.textBaseline = 'middle';
     DP.CTX.fillText(

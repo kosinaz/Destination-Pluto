@@ -9,12 +9,49 @@ DP.AsteroidField = function (args) {
 
 DP.AsteroidField.prototype.addAsteroids = function () {
   'use strict';
-  while (this.asteroids.length < this.density) {
-    this.asteroids.push(new DP.Asteroid({
-      x: -100,
-      targetX: -1000,
-      IMAGE: 'images/resources/Asteroid.png'
-    }));
+  var asteroid, stage;
+  asteroid = {
+    IMAGE: 'images/resources/Asteroid.png'
+  };
+  stage =
+    Math.floor((3000 - DP.INGAME.ELEMENTS.DISTANCE_COUNTER.distance) / 500);
+  if (stage > 5) {
+    if (this.asteroids.length < this.density) {
+      if (Math.random() * 10 < 1) {
+        this.asteroids.push(new DP.MagneticAsteroid(asteroid));
+      }
+      stage = Math.floor(Math.random() * 6);
+    }
+  } else {
+    switch (stage) {
+    case 0:
+      asteroid.x = 1;
+      asteroid.y = 0;
+      break;
+    case 1:
+      asteroid.x = 1;
+      asteroid.y = -1;
+      break;
+    case 2:
+      asteroid.x = 0;
+      asteroid.y = 1;
+      break;
+    case 3:
+      asteroid.x = 0;
+      asteroid.y = -1;
+      break;
+    case 4:
+      asteroid.x = -1;
+      asteroid.y = 1;
+      break;
+    case 5:
+      asteroid.x = -1;
+      asteroid.y = 0;
+      break;
+    }
+  }
+  if (this.asteroids.length < this.density) {
+    this.asteroids.push(new DP.Asteroid(asteroid));
   }
 };
 

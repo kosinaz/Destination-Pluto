@@ -94,9 +94,17 @@
         "TYPE": "Starfield",
         "density": 100
       },
+      "PLUTO": {
+        "TYPE": "Planet",
+        "x": 60000,
+        "y": 434,
+        "IMAGE": "images/resources/Pluto.png",
+        "width": 600,
+        "height": 600
+      },
       "ASTEROID_FIELD" : {
         "TYPE": "AsteroidField",
-        "density": 1
+        "density": 5
       },
       "NEW_HORIZONS": {
         "TYPE": "NewHorizons",

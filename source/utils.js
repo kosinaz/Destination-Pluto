@@ -75,7 +75,7 @@ DP.newMission = function () {
   DP.screen.ELEMENTS.DISTANCE_COUNTER.update = function () {
     this.distance -= 0.1;
     this.value = Math.round(this.distance) + ' million miles';
-    if (Math.round(this.distance * 10) % 3000 === 0) {
+    if (Math.round(this.distance * 10) % 1000 === 0) {
       DP.INGAME.ELEMENTS.ASTEROID_FIELD.density += 1;
     }
   };
