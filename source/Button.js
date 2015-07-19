@@ -19,7 +19,7 @@ DP.Button.prototype.draw = function () {
   DP.CTX.strokeStyle = this.COLOR;
   DP.CTX.strokeRect(this.x - 4, this.y, this.width + 8, this.height);
   DP.CTX.fillStyle = this.COLOR;
-  DP.CTX.font = this.FONTSIZE + ' spaceship';
+  DP.CTX.font = this.FONTSIZE + ' "Russo One"';
   DP.CTX.textAlign = this.ALIGN;
   DP.CTX.textBaseline = 'middle';
   DP.CTX.fillText(this.value, this.textX, this.textY);
