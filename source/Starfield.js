@@ -16,7 +16,7 @@ DP.Starfield = function (args) {
       speed: size / 10,
       targetX: -1000,
       targetY: y,
-      IMAGE: 'images/resources/Star.svg'
+      IMAGE: 'images/resources/Star.png'
     }));
   }
 };

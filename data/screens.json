@@ -1,7 +1,7 @@
 {
   "TITLE": {
     "BGCOLOR": "#000",
-    "IMAGE": "images/resources/Title.svg",
+    "IMAGE": "images/resources/Title.png",
     "MUSIC": "music/Urban-Future.mp3",
     "ELEMENTS": {
       "NEW_MISSION": {
@@ -102,7 +102,7 @@
         "TYPE": "NewHorizons",
         "x": 0,
         "y": 384,
-        "IMAGE": "images/resources/NewHorizons.svg",
+        "IMAGE": "images/resources/NewHorizons.png",
         "width": 200,
         "height": 200,
         "speed": 5
@@ -111,7 +111,7 @@
         "TYPE": "Flash",
         "x": 0,
         "y": 384,
-        "IMAGE": "images/resources/Star.svg",
+        "IMAGE": "images/resources/Star.png",
         "width": 100,
         "height": 100
       },

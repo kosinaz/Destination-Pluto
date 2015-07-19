@@ -16,7 +16,10 @@
    id="svg6722"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="header.svg">
+   sodipodi:docname="header.svg"
+   inkscape:export-filename="C:\Games\Destination Pluto\images\misc\header.png"
+   inkscape:export-xdpi="89.651321"
+   inkscape:export-ydpi="89.651321">
   <defs
      id="defs6724">
     <path
@@ -34,8 +37,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.9899495"
-     inkscape:cx="762.78074"
-     inkscape:cy="309.40083"
+     inkscape:cx="708.64363"
+     inkscape:cy="167.09936"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -166,22 +169,6 @@
        width="100%"
        height="100%"
        transform="translate(250.94301,-132.11593)" />
-    <use
-       id="use13911"
-       xlink:href="#path13897"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%"
-       transform="translate(-1055.8455,97.765569)" />
-    <use
-       id="use13913"
-       xlink:href="#path13893"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%"
-       transform="translate(-657.809,-559.50481)" />
     <use
        id="use13915"
        xlink:href="#path13897"
@@ -319,14 +306,6 @@
        height="100%"
        transform="translate(-536.41696,-16.145641)" />
     <use
-       id="use13951"
-       xlink:href="#path13897"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%"
-       transform="translate(-633.28794,-667.55873)" />
-    <use
        id="use13953"
        xlink:href="#path13895"
        x="0"
@@ -334,38 +313,6 @@
        width="100%"
        height="100%"
        transform="translate(-389.87561,-44.846868)" />
-    <use
-       id="use13955"
-       xlink:href="#path13893"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%"
-       transform="translate(-1032.699,-99.934501)" />
-    <use
-       id="use13957"
-       xlink:href="#path13897"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%"
-       transform="translate(-624.84217,-576.15581)" />
-    <use
-       id="use13959"
-       xlink:href="#path13895"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%"
-       transform="translate(-636.86037,-481.59591)" />
-    <use
-       id="use13961"
-       xlink:href="#path13893"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%"
-       transform="translate(-793.4431,-535.71849)" />
     <use
        id="use13963"
        xlink:href="#path13897"
@@ -439,14 +386,6 @@
        height="100%"
        transform="translate(-516.86666,-79.667448)" />
     <use
-       id="use13987"
-       xlink:href="#path13897"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%"
-       transform="translate(-371.00213,-646.16088)" />
-    <use
        id="use13989"
        xlink:href="#path13895"
        x="0"
@@ -454,14 +393,6 @@
        width="100%"
        height="100%"
        transform="translate(-691.29205,-46.706661)" />
-    <use
-       id="use13991"
-       xlink:href="#path13893"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%"
-       transform="translate(-512.82762,-676.01368)" />
     <use
        id="use13995"
        xlink:href="#path13893"
@@ -559,22 +490,6 @@
        height="100%"
        transform="translate(-186.9415,177.79579)" />
     <use
-       id="use14037"
-       xlink:href="#path13893"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%"
-       transform="translate(-252.47278,-164.29862)" />
-    <use
-       id="use14041"
-       xlink:href="#path13895"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%"
-       transform="translate(-1058.804,54.421469)" />
-    <use
        id="use14043"
        xlink:href="#path13897"
        x="0"
@@ -582,14 +497,6 @@
        width="100%"
        height="100%"
        transform="translate(44.355847,-212.44364)" />
-    <use
-       id="use14045"
-       xlink:href="#path13895"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%"
-       transform="translate(-827.75333,280.08392)" />
     <use
        id="use14047"
        xlink:href="#path13893"
@@ -630,22 +537,6 @@
        width="100%"
        height="100%"
        transform="translate(-348.59122,-71.058521)" />
-    <use
-       id="use14057"
-       xlink:href="#path13897"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%"
-       transform="translate(-1152.5159,-185.51318)" />
-    <use
-       id="use14059"
-       xlink:href="#path13895"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%"
-       transform="translate(-1067.4954,27.612569)" />
     <use
        id="use14061"
        xlink:href="#path13893"
@@ -1932,17 +1823,6 @@
          id="path4827"
          inkscape:connector-curvature="0" />
     </g>
-    <text
-       sodipodi:linespacing="125%"
-       id="text4848"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:119.67634583px;line-height:125%;font-family:'Spaceship Bullet';-inkscape-font-specification:'Spaceship Bullet, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffcc00;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"
-       transform="scale(1.0009626,0.99903835)"
-       x="-1381.4703"
-       y="-239.2482"><textPath
-         id="textPath4850"
-         xlink:href="#path4840"><tspan
-   id="tspan4852">Destination: Pluto</tspan></textPath></text>
     <use
        id="use7325"
        xlink:href="#use13983"
@@ -2080,14 +1960,6 @@
        height="100%"
        transform="translate(147.73448,219.57938)" />
     <use
-       id="use7359"
-       xlink:href="#use13979"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%"
-       transform="translate(109.74356,235.60773)" />
-    <use
        id="use7361"
        xlink:href="#use13929"
        x="0"
@@ -2103,14 +1975,6 @@
        width="100%"
        height="100%"
        transform="translate(118.53531,111.89519)" />
-    <use
-       id="use7365"
-       xlink:href="#use13989"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%"
-       transform="translate(596.12766,389.48027)" />
     <use
        id="use7367"
        xlink:href="#use13983"
@@ -2128,14 +1992,6 @@
        height="100%"
        transform="translate(632.32248,112.76759)" />
     <use
-       id="use7371"
-       xlink:href="#use13989"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%"
-       transform="translate(637.05656,369.59664)" />
-    <use
        id="use7373"
        xlink:href="#use13979"
        x="0"
@@ -2151,14 +2007,6 @@
        width="100%"
        height="100%"
        transform="translate(556.6096,175.2571)" />
-    <use
-       id="use7377"
-       xlink:href="#use13983"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%"
-       transform="translate(766.32328,248.68408)" />
     <use
        id="use7379"
        xlink:href="#use13979"
@@ -2248,14 +2096,6 @@
        height="100%"
        transform="translate(240.77008,-151.13617)" />
     <use
-       id="use7401"
-       xlink:href="#use13989"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%"
-       transform="translate(215.29098,370.57043)" />
-    <use
        id="use7403"
        xlink:href="#use13983"
        x="0"
@@ -2279,14 +2119,6 @@
        width="100%"
        height="100%"
        transform="translate(302.79295,147.27519)" />
-    <use
-       id="use7409"
-       xlink:href="#use13919"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%"
-       transform="translate(308.94775,203.41687)" />
     <use
        id="use7411"
        xlink:href="#use13989"
@@ -2320,14 +2152,6 @@
        height="100%"
        transform="translate(1115.2327,363.72709)" />
     <use
-       id="use7419"
-       xlink:href="#use13983"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%"
-       transform="translate(1203.7603,250.09328)" />
-    <use
        id="use7421"
        xlink:href="#use13979"
        x="0"
@@ -2335,14 +2159,6 @@
        width="100%"
        height="100%"
        transform="translate(1234.5852,166.65905)" />
-    <use
-       id="use7423"
-       xlink:href="#use13929"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%"
-       transform="translate(1220.0085,257.45036)" />
     <use
        id="use7425"
        xlink:href="#use13979"
@@ -2472,14 +2288,6 @@
        height="100%"
        transform="translate(1380.6148,326.13735)" />
     <use
-       id="use7459"
-       xlink:href="#use13979"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%"
-       transform="translate(1440.9545,252.02191)" />
-    <use
        id="use7461"
        xlink:href="#use13929"
        x="0"
@@ -2487,14 +2295,6 @@
        width="100%"
        height="100%"
        transform="translate(1497.2461,194.66514)" />
-    <use
-       id="use7463"
-       xlink:href="#use13919"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%"
-       transform="translate(1518.4581,204.47945)" />
     <use
        id="use7465"
        xlink:href="#use13979"
@@ -2520,14 +2320,6 @@
        height="100%"
        transform="translate(1292.932,110.7665)" />
     <use
-       id="use7471"
-       xlink:href="#use13989"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%"
-       transform="translate(878.45713,370.42571)" />
-    <use
        id="use7473"
        xlink:href="#use13979"
        x="0"
@@ -2535,14 +2327,6 @@
        width="100%"
        height="100%"
        transform="translate(845.12004,198.84209)" />
-    <use
-       id="use7475"
-       xlink:href="#use13929"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%"
-       transform="translate(944.28535,280.7933)" />
     <use
        id="use7477"
        xlink:href="#use13919"

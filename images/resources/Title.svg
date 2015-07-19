@@ -16,7 +16,10 @@
    id="svg6722"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="Title.svg">
+   sodipodi:docname="Title.svg"
+   inkscape:export-filename="C:\Games\Destination Pluto\images\resources\Title.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs6724">
     <path
@@ -57,7 +60,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>

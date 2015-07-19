@@ -15,7 +15,10 @@
    id="svg16959"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="Asteroid.svg">
+   sodipodi:docname="Asteroid.svg"
+   inkscape:export-filename="C:\Games\Destination Pluto\images\resources\Asteroid.png"
+   inkscape:export-xdpi="156.26663"
+   inkscape:export-ydpi="156.26663">
   <defs
      id="defs16961" />
   <sodipodi:namedview
@@ -25,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35"
-     inkscape:cx="-105.6692"
-     inkscape:cy="-221.60987"
+     inkscape:zoom="1.979899"
+     inkscape:cx="186.116"
+     inkscape:cy="21.076859"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -48,7 +51,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>

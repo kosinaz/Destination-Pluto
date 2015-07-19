@@ -30,11 +30,8 @@ DP.Actor.prototype.update = function () {
   var distance = Math.sqrt(
     Math.pow(this.targetX - this.x, 2) + Math.pow(this.targetY - this.y, 2)
   );
-  if (distance > this.speed * 25) {
+  if (distance > this.speed) {
     this.x += (this.targetX - this.x) * (this.speed / distance);
     this.y += (this.targetY - this.y) * (this.speed / distance);
-  } else {
-    this.x += (this.targetX - this.x) / 25;
-    this.y += (this.targetY - this.y) / 25;
   }
 };
